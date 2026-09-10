@@ -1,23 +1,59 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
     margin: 40px auto;
     max-width: 800px;
     padding: 0 20px;
     color: #333;
-    background-color: #f9f9f9;
+    background-color: #f4f7f6;
 }
 
 header {
     text-align: center;
-    background: #007acc;
+    background: #2c3e50;
     color: white;
-    padding: 20px;
+    padding: 40px 20px;
     border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
 
 h2 {
-    color: #007acc;
-    border-bottom: 2px solid #007acc;
-    padding-bottom: 5px;
+    color: #2c3e50;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 8px;
+    margin-top: 30px;
+}
+
+.liste-competences {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+
+.badge {
+    background-color: #3498db;
+    color: white;
+    padding: 6px 15px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+#contact a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    margin-top: 5px;
+    padding-top: 20px;
+    font-size: 0.9rem;
+    color: #7f8c8d;
 }
